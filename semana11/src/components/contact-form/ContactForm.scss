@@ -1,0 +1,14 @@
+.contact {
+  &-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  &-form {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+}
