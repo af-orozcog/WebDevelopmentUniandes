@@ -13,7 +13,7 @@ export const TodoApp = () => {
   const [todos, dispatch] = useReducer(todoReducer, [], init);
 
   useEffect(() => {
-    //localStorage.setItem('todos', JSON.stringify(todos));
+    localStorage.setItem('todos', JSON.stringify(todos));
   }, [todos]);
 
   const handleAddTodo = (newTodo) => {
