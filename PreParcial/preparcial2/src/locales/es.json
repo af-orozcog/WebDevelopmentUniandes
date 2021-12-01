@@ -1,0 +1,10 @@
+{
+  "Name": "Nombre",
+  "Directed": "Dirigido por",
+  "Country": "Pais",
+  "Budget": "Presupuesto",
+  "Release": "Fecha de estreno",
+  "Views": "Vistas",
+  "language": "es",
+  "budget": "{budget, plural, many {# millones} other {# millón}}."
+}
